@@ -37,7 +37,7 @@ export default function PermissionsRedirect({ subjectMetadata }) {
             <div className="permissions-redirect__dashed-line" />
           </Box>
           <SiteIcon
-            icon="/images/logo/metamask-fox.svg"
+            icon="/images/logo/gridlock-logo.svg"
             size={64}
             className="permissions-redirect__site-icon"
           />

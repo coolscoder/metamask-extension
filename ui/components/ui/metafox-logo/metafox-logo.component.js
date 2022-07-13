@@ -27,15 +27,19 @@ export default class MetaFoxLogo extends PureComponent {
           'app-header__logo-container--clickable': Boolean(onClick),
         })}
       >
-        <MetaFoxHorizontalLogo
+
+        <img
+          src="./images/logo/gridlock-logo-horizontal.png"
+          width="180"
           className={classnames({
             'app-header__metafox-logo--horizontal': !isOnboarding,
             'onboarding-app-header__metafox-logo--horizontal': isOnboarding,
           })}
+          alt="GridLock Logo"
         />
         <img
           {...iconProps}
-          src="./images/logo/metamask-fox.svg"
+          src="./images/logo/gridlock-logo.svg"
           className={classnames({
             'app-header__metafox-logo--icon': !isOnboarding,
             'onboarding-app-header__metafox-logo--icon': isOnboarding,
